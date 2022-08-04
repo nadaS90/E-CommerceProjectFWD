@@ -9,6 +9,10 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.asserts.SoftAssert;
+import org.openqa.selenium.support.Color;
+
+import javax.swing.*;
 
 public class ResidtrationStepDefinition {
 
@@ -52,7 +56,7 @@ public class ResidtrationStepDefinition {
     public void enter_email()
     {
         register.emailPOM().clear();
-        register.emailPOM().sendKeys("test1@example.com");
+        register.emailPOM().sendKeys("test8@example.com");
     }
 
     @And("user fills Password fields") //And user fills Password fields "P@ssw0rd" and "P@ssw0rd"
@@ -69,12 +73,23 @@ public class ResidtrationStepDefinition {
     @Then("user could register successfully")
     public void sucess_msg()
     {
+        SoftAssert soft =  new SoftAssert();
+
         String expectedResult = "Your registration completed";
         String actualResult = Hooks.driver.findElement(RegistrationPage.msgPOM()).getText();
 
-        //Assert with Junit
-        Assert.assertTrue(actualResult.contains(expectedResult));
-        Assert.assertEquals(actualResult.contains(expectedResult), true);
+        soft.assertTrue(actualResult.contains(expectedResult));
+        soft.assertEquals(actualResult.contains(expectedResult), true);
+
+        WebElement rgbColor = Hooks.driver.findElement(RegistrationPage.msgPOM());
+        String s = rgbColor.getCssValue("color");
+        String expectedColor = "rgba(76, 177, 124, 1)";
+        System.out.println("Color is :" + s);
+
+        soft.assertTrue(s.contains(expectedColor));
+
+        soft.assertAll();
+
     }
 
 }

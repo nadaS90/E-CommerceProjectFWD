@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/testRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +89,21 @@
       <updated>1659529466245</updated>
       <workItem from="1659529468227" duration="19092000" />
     </task>
+    <task id="LOCAL-00001" summary="Report generated correctly">
+      <created>1659624360241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659624360241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Report generated correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report generated correctly" />
   </component>
 </project>
