@@ -1,6 +1,5 @@
 package org.example.testRunner;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -8,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src\\main\\features",
-        glue = "stepDefinition",
+        glue = "org.example.stepDefinition",
         tags = "@smoke",
         plugin = {
                 "pretty",
