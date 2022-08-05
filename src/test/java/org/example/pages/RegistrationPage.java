@@ -10,6 +10,7 @@ public class RegistrationPage {
     static WebDriver driver;
 
     public RegistrationPage(WebDriver driver)
+
     {
         this.driver = driver;
     }
