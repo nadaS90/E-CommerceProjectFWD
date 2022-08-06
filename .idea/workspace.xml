@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/features/Currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/CurrenciesStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/CurrenciesStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/CurrenciesStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659529466245</updated>
       <workItem from="1659529468227" duration="19092000" />
-      <workItem from="1659716210158" duration="17909000" />
+      <workItem from="1659716210158" duration="18231000" />
     </task>
     <task id="LOCAL-00001" summary="Report generated correctly">
       <created>1659624360241</created>
@@ -202,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659809278940</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="curuncies Feature with hard assertion">
+      <created>1659815579477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659815579477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +217,7 @@
     <MESSAGE value="Login StepDefinition" />
     <MESSAGE value="Login Feature Done successdully" />
     <MESSAGE value="color assertion for login feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="color assertion for login feature" />
+    <MESSAGE value="curuncies Feature with hard assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="curuncies Feature with hard assertion" />
   </component>
 </project>

@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import org.example.pages.HomePage;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
+import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
@@ -41,8 +42,11 @@ public class CurrenciesStepDefinition {
 //
        for (int i = 0; i < count; i++)
         {
+            SoftAssert soft = new SoftAssert();
             String actualPrice = currencyItemsElms.get(i).getText();
-            Assert.assertTrue(actualPrice.contains("€"));
+            soft.assertTrue(actualPrice.contains("€"));
+
+            soft.assertAll();
         }
 
 
