@@ -1,11 +1,11 @@
 package org.example.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage {
-
     static WebDriver driver;
 
     public LoginPage(WebDriver driver)
@@ -28,12 +28,12 @@ public class LoginPage {
         return entrPasswordElm;
     }
 
-    public WebElement forgetPassPOM()
-    {
-        By forgetPass = By.linkText("Forgot password?");
-        WebElement forgetPassElm = driver.findElement(forgetPass);
-        return forgetPassElm;
-    }
+//    public WebElement forgetPassPOM()
+//    {
+//        By forgetPass = By.linkText("Forgot password?");
+//        WebElement forgetPassElm = driver.findElement(forgetPass);
+//        return forgetPassElm;
+//    }
 
     public WebElement myAccountPOM()
     {
@@ -41,6 +41,7 @@ public class LoginPage {
         WebElement myAccountElm = driver.findElement(myAccount);
         return myAccountElm;
     }
+
 
     public void  LoginSteps(String email, String password)
     {
@@ -50,7 +51,6 @@ public class LoginPage {
 
         //Enter password with POM
         passwordPOM().sendKeys(password);
-
     }
 
 
