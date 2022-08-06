@@ -28,6 +28,13 @@ public class LoginPage {
         return entrPasswordElm;
     }
 
+    public static By errorMsgPOM(){
+        By errormsg = By.xpath("//div[@class='message-error validation-summary-errors']");
+        WebElement msgElm = driver.findElement(errormsg);
+        return errormsg;
+    }
+
+
 //    public WebElement forgetPassPOM()
 //    {
 //        By forgetPass = By.linkText("Forgot password?");
@@ -43,6 +50,8 @@ public class LoginPage {
     }
 
 
+
+
     public void  LoginSteps(String email, String password)
     {
         // Enter email with POM
@@ -52,6 +61,8 @@ public class LoginPage {
         //Enter password with POM
         passwordPOM().sendKeys(password);
     }
+
+
 
 
 }

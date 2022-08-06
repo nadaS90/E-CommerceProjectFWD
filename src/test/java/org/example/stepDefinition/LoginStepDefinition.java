@@ -11,6 +11,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
+import org.openqa.selenium.support.Color;
+
 
 import java.security.Key;
 import java.util.concurrent.TimeUnit;
@@ -75,9 +77,18 @@ public class LoginStepDefinition {
         SoftAssert soft = new SoftAssert();
 
         String expectedResult = "Login was unsuccessful. Please correct the errors and try again.";
-        String actualResult = Hooks.driver.findElement(By.xpath("//div[@class='message-error validation-summary-errors']")).getText();
+        String actualResult = Hooks.driver.findElement(LoginPage.errorMsgPOM()).getText();
+
         System.out.println("actual result: "+ actualResult);
         soft.assertTrue(actualResult.contains(expectedResult));
+
+        WebElement rgbColor = Hooks.driver.findElement(LoginPage.errorMsgPOM());
+        String color = rgbColor.getCssValue("color");
+        System.out.println(color);
+        String hex = Color.fromString(color).asHex();
+        System.out.println(hex);
+        String expectedColor = "#e4434b";
+        soft.assertTrue(hex.contains(expectedColor));
 
         soft.assertAll();
     }
