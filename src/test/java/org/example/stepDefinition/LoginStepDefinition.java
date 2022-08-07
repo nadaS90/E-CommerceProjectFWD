@@ -1,21 +1,13 @@
 package org.example.stepDefinition;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.example.pages.HomePage;
 import org.example.pages.LoginPage;
-import org.example.pages.RegistrationPage;
-import org.junit.Assert;
-import org.junit.rules.Timeout;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 import org.openqa.selenium.support.Color;
-
-
-import java.security.Key;
-import java.util.concurrent.TimeUnit;
 
 public class LoginStepDefinition {
 

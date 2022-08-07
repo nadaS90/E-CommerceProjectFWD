@@ -36,6 +36,20 @@ public class HomePage {
         return currencyItemsElms;
     }
 
+    public WebElement searchFieldPOM()
+    {
+        By searchField = By.name("q");
+        WebElement searchFieldElm = driver.findElement(searchField);
+        return searchFieldElm;
+    }
+
+    public WebElement productNamePOM()
+    {
+        By productName = By.name("q");
+        WebElement productNameElm = driver.findElement(productName);
+        return productNameElm;
+    }
+
 
 
     }

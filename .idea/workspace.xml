@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/CurrenciesStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/CurrenciesStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/features/Search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/SearchStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +57,64 @@
       <recent name="D:\NADA-FWD\Selenium\E-CommerceProjectFWD\src\main\features" />
       <recent name="D:\NADA-FWD\Selenium\E-CommerceProjectFWD\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.stepDefinition" />
+      <recent name="org.example.pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User changes currency from US Dollar to Euro">
-    <configuration name="Scenario: User changes currency from US Dollar to Euro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Currencies.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Login.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^User changes currency from US Dollar to Euro$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User changes currency from US Dollar to Euro$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User changes currency from US Dollar to Euro" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Search.feature" />
+      <option name="GLUE" value="org.example.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="E-CommerceProjectFWD" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: Search" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: guest user could register with valid data successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Registration.feature" />
+      <option name="GLUE" value="org.example.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="E-CommerceProjectFWD" />
+      <option name="NAME_FILTER" value="^guest user could register with valid data successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could register with valid data successfully$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: guest user could register with valid data successfully" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -86,28 +137,6 @@
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could login with valid email and password$&quot;" />
       <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: user could login with valid email and password" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: user could not login with valid email and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Login.feature" />
-      <option name="GLUE" value="org.example.stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^user could not login with valid email and password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could not login with valid email and password$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: user could not login with valid email and password" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -145,10 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User changes currency from US Dollar to Euro" />
-        <item itemvalue="Cucumber Java.Scenario: user could not login with valid email and password" />
-        <item itemvalue="Cucumber Java.Scenario: user could login with valid email and password" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: user could login with valid email and password" />
+        <item itemvalue="Cucumber Java.Scenario: guest user could register with valid data successfully" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
+        <item itemvalue="Cucumber Java.Feature: Search" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659529466245</updated>
       <workItem from="1659529468227" duration="19092000" />
-      <workItem from="1659716210158" duration="18231000" />
+      <workItem from="1659716210158" duration="22232000" />
     </task>
     <task id="LOCAL-00001" summary="Report generated correctly">
       <created>1659624360241</created>
@@ -205,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659815579477</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="curuncies Feature with soft assertion">
+      <created>1659815817715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659815817715</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +255,7 @@
     <MESSAGE value="Login Feature Done successdully" />
     <MESSAGE value="color assertion for login feature" />
     <MESSAGE value="curuncies Feature with hard assertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="curuncies Feature with hard assertion" />
+    <MESSAGE value="curuncies Feature with soft assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="curuncies Feature with soft assertion" />
   </component>
 </project>
