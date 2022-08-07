@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/features/Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/SearchStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/features/F5_HoverCategories.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S5_HoverCategoriesStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/LoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/Currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F3_Currencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F2_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F1_Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F4_Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P2_LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P1_RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/CurrenciesStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S3_CurrenciesStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S2_LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/ResidtrationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S1_ResidtrationStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/SearchStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S4_SearchStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +70,16 @@
       <recent name="org.example.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: guest user could hover categories successfully (1)">
+    <configuration name="Feature: F5_HoverCategories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F5_HoverCategories.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="SUGGESTED_NAME" value="Feature: F5_HoverCategories" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -84,15 +92,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: guest user could hover categories successfully (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Search.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F5_HoverCategories.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="NAME_FILTER" value="^guest user could hover categories successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could hover categories successfully$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: Search" />
+      <option name="SUGGESTED_NAME" value="Scenario: guest user could hover categories successfully" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -105,16 +114,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: guest user could register with valid data successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: guest user could hover categories successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Registration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/HoverTry.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^guest user could register with valid data successfully$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could register with valid data successfully$&quot;" />
+      <option name="NAME_FILTER" value="^guest user could hover categories successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could hover categories successfully$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: guest user could register with valid data successfully" />
+      <option name="SUGGESTED_NAME" value="Scenario: guest user could hover categories successfully" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -127,16 +136,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: user could login with valid email and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user could hover on categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F5_HoverCategories.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^user could login with valid email and password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could login with valid email and password$&quot;" />
+      <option name="NAME_FILTER" value="^user could hover on categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could hover on categories$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: user could login with valid email and password" />
+      <option name="SUGGESTED_NAME" value="Scenario: user could hover on categories" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: guest user could hover categories successfully (1)" />
+        <item itemvalue="Cucumber Java.Scenario: guest user could hover categories successfully" />
+        <item itemvalue="Cucumber Java.Feature: F5_HoverCategories" />
+        <item itemvalue="Cucumber Java.Scenario: user could hover on categories" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: user could login with valid email and password" />
-        <item itemvalue="Cucumber Java.Scenario: guest user could register with valid data successfully" />
-        <item itemvalue="Cucumber Java.Feature: Login" />
-        <item itemvalue="Cucumber Java.Feature: Search" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +200,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659529466245</updated>
       <workItem from="1659529468227" duration="19092000" />
-      <workItem from="1659716210158" duration="22232000" />
+      <workItem from="1659716210158" duration="22417000" />
+      <workItem from="1659870090019" duration="10893000" />
     </task>
     <task id="LOCAL-00001" summary="Report generated correctly">
       <created>1659624360241</created>
@@ -242,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659815817715</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Search for products with assertion">
+      <created>1659853065440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659853065440</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +273,7 @@
     <MESSAGE value="color assertion for login feature" />
     <MESSAGE value="curuncies Feature with hard assertion" />
     <MESSAGE value="curuncies Feature with soft assertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="curuncies Feature with soft assertion" />
+    <MESSAGE value="Search for products with assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search for products with assertion" />
   </component>
 </project>

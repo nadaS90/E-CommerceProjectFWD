@@ -5,11 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class RegistrationPage {
+public class P1_RegistrationPage {
 
     static WebDriver driver;
 
-    public RegistrationPage(WebDriver driver)
+    public P1_RegistrationPage(WebDriver driver)
 
     {
         this.driver = driver;

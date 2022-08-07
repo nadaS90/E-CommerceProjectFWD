@@ -1,14 +1,13 @@
 package org.example.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+public class P2_LoginPage {
     static WebDriver driver;
 
-    public LoginPage(WebDriver driver)
+    public P2_LoginPage(WebDriver driver)
 
     {
         this.driver = driver;

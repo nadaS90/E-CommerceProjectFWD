@@ -6,11 +6,10 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class HomePage {
-
+public class P3_HomePage {
          WebDriver driver;
 
-        public HomePage(WebDriver driver)
+        public P3_HomePage(WebDriver driver)
         {
             this.driver = driver;
         }
@@ -43,13 +42,35 @@ public class HomePage {
         return searchFieldElm;
     }
 
-    public WebElement productNamePOM()
+//    public  WebElement productTitlePOM()
+//    {
+//        By productTitle = By.cssSelector("h2[class=\"product-title\"]");
+//        WebElement productTitleElm = driver.findElement(productTitle);
+//        return productTitleElm;
+//    }
+
+    public WebElement hoverCategoryPOM()
     {
-        By productName = By.name("q");
-        WebElement productNameElm = driver.findElement(productName);
-        return productNameElm;
+        By hoverCategory = By.cssSelector("ul[class=\"top-menu notmobile\"] [href=\"/electronics\"]");
+        WebElement hoverCategoryElm = driver.findElement(hoverCategory);
+        return hoverCategoryElm;
+    }
+
+    public WebElement subCategoryPOM()
+    {
+        By subCategory = By.cssSelector("body > div.master-wrapper-page > div.header-menu > ul.top-menu.notmobile > li:nth-child(2) > ul > li:nth-child(2) > a");
+        WebElement subCategoryElm = driver.findElement(subCategory);
+        return subCategoryElm;
+    }
+
+    public  WebElement categoryListPOM()
+    {
+        By categoryList = By.cssSelector("div[class=\"page-title\"]");
+        WebElement categoryListElm = driver.findElement(categoryList);
+        return categoryListElm;
     }
 
 
 
-    }
+
+}

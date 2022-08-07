@@ -2,20 +2,19 @@ package org.example.stepDefinition;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.example.pages.HomePage;
-import org.example.pages.LoginPage;
+import org.example.pages.P2_LoginPage;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 import org.openqa.selenium.support.Color;
 
-public class LoginStepDefinition {
+public class S2_LoginStepDefinition {
 
-    LoginPage login;
+    P2_LoginPage login;
 
-    public LoginStepDefinition()
+    public S2_LoginStepDefinition()
     {
-        this.login = new LoginPage(Hooks.driver);
+        this.login = new P2_LoginPage(Hooks.driver);
     }
 
     @Given("user go to login page")
@@ -69,12 +68,12 @@ public class LoginStepDefinition {
         SoftAssert soft = new SoftAssert();
 
         String expectedResult = "Login was unsuccessful. Please correct the errors and try again.";
-        String actualResult = Hooks.driver.findElement(LoginPage.errorMsgPOM()).getText();
+        String actualResult = Hooks.driver.findElement(P2_LoginPage.errorMsgPOM()).getText();
 
         System.out.println("actual result: "+ actualResult);
         soft.assertTrue(actualResult.contains(expectedResult));
 
-        WebElement rgbColor = Hooks.driver.findElement(LoginPage.errorMsgPOM());
+        WebElement rgbColor = Hooks.driver.findElement(P2_LoginPage.errorMsgPOM());
         String color = rgbColor.getCssValue("color");
         System.out.println(color);
         String hex = Color.fromString(color).asHex();

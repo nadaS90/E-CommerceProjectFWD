@@ -3,19 +3,18 @@ package org.example.stepDefinition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.HomePage;
-import org.junit.Assert;
+import org.example.pages.P3_HomePage;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
-public class CurrenciesStepDefinition {
-    HomePage homePage;
+public class S3_CurrenciesStepDefinition {
+    P3_HomePage homePage;
 
-    public CurrenciesStepDefinition()
+    public S3_CurrenciesStepDefinition()
     {
-        this.homePage = new HomePage(Hooks.driver);
+        this.homePage = new P3_HomePage(Hooks.driver);
     }
 
     @Given("User clicks on drop list")
@@ -37,8 +36,8 @@ public class CurrenciesStepDefinition {
         System.out.println("num of elements: "+ count);
 
 //        String expectedResult = "€" ;
-////        String actualResult = Hooks.driver.findElement(HomePage.currencyItemsPOM()).getText();
-//         String actualReasult = Hooks.driver.findElements(HomePage.currencyItemsPOM()).getText();
+////        String actualResult = Hooks.driver.findElement(P3_HomePage.currencyItemsPOM()).getText();
+//         String actualReasult = Hooks.driver.findElements(P3_HomePage.currencyItemsPOM()).getText();
 //
        for (int i = 0; i < count; i++)
         {

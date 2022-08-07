@@ -4,22 +4,18 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.RegistrationPage;
-import org.junit.Assert;
+import org.example.pages.P1_RegistrationPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
-import org.openqa.selenium.support.Color;
 
-import javax.swing.*;
+public class S1_ResidtrationStepDefinition {
 
-public class ResidtrationStepDefinition {
+    P1_RegistrationPage register ;
 
-    RegistrationPage register ;
-
-    public ResidtrationStepDefinition() {
-        this.register = new RegistrationPage(Hooks.driver);
+    public S1_ResidtrationStepDefinition() {
+        this.register = new P1_RegistrationPage(Hooks.driver);
     }
 
     @Given("user navigates to register page")
@@ -76,12 +72,12 @@ public class ResidtrationStepDefinition {
         SoftAssert soft =  new SoftAssert();
 
         String expectedResult = "Your registration completed";
-        String actualResult = Hooks.driver.findElement(RegistrationPage.msgPOM()).getText();
+        String actualResult = Hooks.driver.findElement(P1_RegistrationPage.msgPOM()).getText();
 
         soft.assertTrue(actualResult.contains(expectedResult));
         soft.assertEquals(actualResult.contains(expectedResult), true);
 
-        WebElement rgbColor = Hooks.driver.findElement(RegistrationPage.msgPOM());
+        WebElement rgbColor = Hooks.driver.findElement(P1_RegistrationPage.msgPOM());
         String s = rgbColor.getCssValue("color");
         String expectedColor = "rgba(76, 177, 124, 1)";
         System.out.println("Color is :" + s);

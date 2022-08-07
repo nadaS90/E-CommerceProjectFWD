@@ -3,25 +3,21 @@ package org.example.stepDefinition;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.example.pages.HomePage;
-import org.example.pages.LoginPage;
+import org.example.pages.P3_HomePage;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.Color;
-import org.testng.asserts.SoftAssert;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
-public class SearchStepDefinition {
+public class S4_SearchStepDefinition {
 
-    HomePage homePage;
+    P3_HomePage homePage;
 
-    public SearchStepDefinition()
+    public S4_SearchStepDefinition()
     {
-        this.homePage = new HomePage(Hooks.driver);
+        this.homePage = new P3_HomePage(Hooks.driver);
     }
 
     @Given("user click on search field")
