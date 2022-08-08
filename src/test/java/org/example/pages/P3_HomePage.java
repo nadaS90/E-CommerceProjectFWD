@@ -70,13 +70,6 @@ public class P3_HomePage {
         return categoryListElm;
     }
 
-//    public WebElement selectSliderPOM(String slideNo)
-//    {
-//        By selectSlider = By.xpath("(//a[@href=\"http://demo.nopcommerce.com/\"])["+slideNo+"]");
-//        WebElement selectSliderElm = driver.findElement(selectSlider);
-//        return selectSliderElm;
-//    }
-
     public WebElement selectFirstSliderPOM()
     {
         By selectFirstSlider = By.xpath("//div[@class='nivo-controlNav']//a[1]");
@@ -87,9 +80,36 @@ public class P3_HomePage {
     public WebElement selectSecondSliderPOM()
     {
         By selectSecondSlider = By.xpath("//div[@class='nivo-controlNav']//a[2]");
-       // By selectSecondSlider = By.cssSelector("div[id=\\\"nivo-slider\\\"]");
         WebElement selectSecondSliderElm = driver.findElement(selectSecondSlider);
         return selectSecondSliderElm;
+    }
+
+    public WebElement faceBookPOM()
+    {
+        By faceBook = By.xpath("//a[@href=\"http://www.facebook.com/nopCommerce\"]");
+        WebElement faceBookElm = driver.findElement(faceBook);
+        return faceBookElm;
+    }
+
+    public WebElement twitterPOM()
+    {
+        By twitter = By.xpath("//a[@href=\"https://twitter.com/nopCommerce\"]");
+        WebElement twitterElm = driver.findElement(twitter);
+        return twitterElm;
+    }
+
+    public WebElement rssPOM()
+    {
+        By rss = By.xpath("//a[@href=\"/news/rss/1\"]");
+        WebElement rssElm = driver.findElement(rss);
+        return rssElm;
+    }
+
+    public WebElement youTubePOM()
+    {
+        By youTube = By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]");
+        WebElement youTubeElm = driver.findElement(youTube);
+        return youTubeElm;
     }
 
 

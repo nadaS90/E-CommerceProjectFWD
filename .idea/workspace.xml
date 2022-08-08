@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S6_HomeSliderStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S7_FollowUsStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S6_HomeSliderStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S6_HomeSliderStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/NADA-FWD/Selenium/E-CommerceProjectFWD/src/main/features&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/engna/Downloads/FWD_E-Commerce_Automation-master/FWD_E-Commerce_Automation-master/pom.xml",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NADA-FWD\Selenium\E-CommerceProjectFWD\src\main\features" />
@@ -60,16 +63,16 @@
       <recent name="org.example.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: F6_HomeSliders">
-    <configuration name="Feature: F6_HomeSliders" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User Follow Facebook">
+    <configuration name="Feature: F7_FollowUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: F6_HomeSliders" />
+      <option name="SUGGESTED_NAME" value="Feature: F7_FollowUs" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,16 +85,15 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User  select first slider is clickable on home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: mohammed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/mohammed.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^User  select first slider is clickable on home page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User  select first slider is clickable on home page$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User  select first slider is clickable on home page" />
+      <option name="SUGGESTED_NAME" value="Feature: mohammed" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -104,16 +106,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: guest user could hover categories successfully (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User Follow Facebook" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F5_HoverCategories.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/mohammed.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^guest user could hover categories successfully$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could hover categories successfully$&quot;" />
+      <option name="NAME_FILTER" value="^User Follow Facebook$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User Follow Facebook$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: guest user could hover categories successfully" />
+      <option name="SUGGESTED_NAME" value="Scenario: User Follow Facebook" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -126,16 +128,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: guest user could hover categories successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User opens facebook link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/HoverTry.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^guest user could hover categories successfully$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could hover categories successfully$&quot;" />
+      <option name="NAME_FILTER" value="^User opens facebook link$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User opens facebook link$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: guest user could hover categories successfully" />
+      <option name="SUGGESTED_NAME" value="Scenario: User opens facebook link" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,16 +150,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: user  select second slider is clickable on home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User opens twitter link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^user  select second slider is clickable on home page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user  select second slider is clickable on home page$&quot;" />
+      <option name="NAME_FILTER" value="^User opens twitter link$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User opens twitter link$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: user  select second slider is clickable on home page" />
+      <option name="SUGGESTED_NAME" value="Scenario: User opens twitter link" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -178,13 +180,28 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="E-CommerceProjectFWD" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: mohammed" />
+      <item itemvalue="Cucumber Java.Scenario: User Follow Facebook" />
+      <item itemvalue="Cucumber Java.Scenario: User opens facebook link" />
+      <item itemvalue="Cucumber Java.Scenario: User opens twitter link" />
+      <item itemvalue="Cucumber Java.Feature: F7_FollowUs" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: F6_HomeSliders" />
-        <item itemvalue="Cucumber Java.Scenario: user  select second slider is clickable on home page" />
-        <item itemvalue="Cucumber Java.Scenario: User  select first slider is clickable on home page" />
-        <item itemvalue="Cucumber Java.Scenario: guest user could hover categories successfully (1)" />
-        <item itemvalue="Cucumber Java.Scenario: guest user could hover categories successfully" />
+        <item itemvalue="Cucumber Java.Scenario: User Follow Facebook" />
+        <item itemvalue="Cucumber Java.Feature: mohammed" />
+        <item itemvalue="Cucumber Java.Feature: F7_FollowUs" />
+        <item itemvalue="Cucumber Java.Scenario: User opens facebook link" />
+        <item itemvalue="Cucumber Java.Scenario: User opens twitter link" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +216,7 @@
       <workItem from="1659529468227" duration="19092000" />
       <workItem from="1659716210158" duration="22417000" />
       <workItem from="1659870090019" duration="11466000" />
-      <workItem from="1659936422764" duration="10118000" />
+      <workItem from="1659936422764" duration="25956000" />
     </task>
     <task id="LOCAL-00001" summary="Report generated correctly">
       <created>1659624360241</created>
@@ -264,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659881675569</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Home page sliders Feature">
+      <created>1659946779397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659946779397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +304,7 @@
     <MESSAGE value="curuncies Feature with soft assertion" />
     <MESSAGE value="Search for products with assertion" />
     <MESSAGE value="Hover category Feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hover category Feature" />
+    <MESSAGE value="Home page sliders Feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page sliders Feature" />
   </component>
 </project>

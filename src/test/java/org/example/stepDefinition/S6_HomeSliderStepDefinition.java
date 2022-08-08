@@ -32,6 +32,8 @@ public class S6_HomeSliderStepDefinition {
         String nameFirst = homePage.selectFirstSliderPOM().getText();
         System.out.println("done first selecting");
         System.out.println(nameFirst);
+        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @Then("User directed to the first product page")
@@ -51,6 +53,8 @@ public class S6_HomeSliderStepDefinition {
         String nameSecond = homePage.selectSecondSliderPOM().getText();
         System.out.println("done second selecting");
         System.out.println(nameSecond);
+        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @Then("User directed to the second product page")
