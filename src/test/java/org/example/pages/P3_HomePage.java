@@ -70,6 +70,30 @@ public class P3_HomePage {
         return categoryListElm;
     }
 
+//    public WebElement selectSliderPOM(String slideNo)
+//    {
+//        By selectSlider = By.xpath("(//a[@href=\"http://demo.nopcommerce.com/\"])["+slideNo+"]");
+//        WebElement selectSliderElm = driver.findElement(selectSlider);
+//        return selectSliderElm;
+//    }
+
+    public WebElement selectFirstSliderPOM()
+    {
+        By selectFirstSlider = By.xpath("//div[@class='nivo-controlNav']//a[1]");
+        WebElement selectFirstSliderElm = driver.findElement(selectFirstSlider);
+        return selectFirstSliderElm;
+    }
+
+    public WebElement selectSecondSliderPOM()
+    {
+        By selectSecondSlider = By.xpath("//div[@class='nivo-controlNav']//a[2]");
+       // By selectSecondSlider = By.cssSelector("div[id=\\\"nivo-slider\\\"]");
+        WebElement selectSecondSliderElm = driver.findElement(selectSecondSlider);
+        return selectSecondSliderElm;
+    }
+
+
+
 
 
 
