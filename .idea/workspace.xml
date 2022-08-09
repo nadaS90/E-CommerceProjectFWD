@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/features/F8_WishList.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S8_WishListStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S1_ResidtrationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S1_ResidtrationStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S7_FollowUsStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S7_FollowUsStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,28 @@
       <recent name="org.example.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: user finds item in wishlist">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User opens youtube link">
+    <configuration name="Feature: F7_FollowUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
+      <option name="GLUE" value="org.example.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="E-CommerceProjectFWD" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: F7_FollowUs" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: F8_WishList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F8_WishList.feature" />
@@ -84,37 +102,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: mohammed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User opens youtube link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/mohammed.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="NAME_FILTER" value="^User opens youtube link$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User opens youtube link$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: mohammed" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User Follow Facebook" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/mohammed.feature" />
-      <option name="GLUE" value="org.example.stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^User Follow Facebook$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User Follow Facebook$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User Follow Facebook" />
+      <option name="SUGGESTED_NAME" value="Scenario: User opens youtube link" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -189,18 +186,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: F8_WishList" />
-      <item itemvalue="Cucumber Java.Feature: mohammed" />
-      <item itemvalue="Cucumber Java.Scenario: User Follow Facebook" />
+      <item itemvalue="Cucumber Java.Scenario: User opens youtube link" />
       <item itemvalue="Cucumber Java.Scenario: User selects item to add to wishist" />
       <item itemvalue="Cucumber Java.Scenario: user finds item in wishlist" />
+      <item itemvalue="Cucumber Java.Feature: F7_FollowUs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: User opens youtube link" />
+        <item itemvalue="Cucumber Java.Feature: F7_FollowUs" />
         <item itemvalue="Cucumber Java.Scenario: user finds item in wishlist" />
         <item itemvalue="Cucumber Java.Scenario: User selects item to add to wishist" />
         <item itemvalue="Cucumber Java.Feature: F8_WishList" />
-        <item itemvalue="Cucumber Java.Scenario: User Follow Facebook" />
-        <item itemvalue="Cucumber Java.Feature: mohammed" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +212,7 @@
       <workItem from="1659529468227" duration="19092000" />
       <workItem from="1659716210158" duration="22417000" />
       <workItem from="1659870090019" duration="11466000" />
-      <workItem from="1659936422764" duration="38014000" />
+      <workItem from="1659936422764" duration="38666000" />
     </task>
     <task id="LOCAL-00001" summary="Report generated correctly">
       <created>1659624360241</created>
@@ -294,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659974265028</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Wishlist Feature">
+      <created>1660006284432</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660006284432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +316,7 @@
     <MESSAGE value="Hover category Feature" />
     <MESSAGE value="Home page sliders Feature" />
     <MESSAGE value="Follow-us Feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Follow-us Feature" />
+    <MESSAGE value="Wishlist Feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wishlist Feature" />
   </component>
 </project>

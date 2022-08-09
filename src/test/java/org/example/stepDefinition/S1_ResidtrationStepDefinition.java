@@ -52,7 +52,7 @@ public class S1_ResidtrationStepDefinition {
     public void enter_email()
     {
         register.emailPOM().clear();
-        register.emailPOM().sendKeys("test@example.com");
+        register.emailPOM().sendKeys("test1@example.com");
     }
 
     @And("user fills Password fields") //And user fills Password fields "P@ssw0rd" and "P@ssw0rd"

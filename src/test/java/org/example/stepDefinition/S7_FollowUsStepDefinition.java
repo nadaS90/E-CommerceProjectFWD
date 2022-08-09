@@ -22,7 +22,7 @@ public class S7_FollowUsStepDefinition {
     public void click_facebook()
     {
         homePage.faceBookPOM().click();
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
 
@@ -35,7 +35,7 @@ public class S7_FollowUsStepDefinition {
     public void navigate_facebook(String url)
     {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
 
@@ -47,7 +47,7 @@ public class S7_FollowUsStepDefinition {
     public void click_twitter()
     {
         homePage.twitterPOM().click();
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.switchTo().window(newTab.get(1));
@@ -58,7 +58,7 @@ public class S7_FollowUsStepDefinition {
     public void navigate_twitter(String url)
     {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
 
@@ -82,7 +82,7 @@ public class S7_FollowUsStepDefinition {
     public void navigate_rss(String url)
     {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.close();
@@ -93,7 +93,7 @@ public class S7_FollowUsStepDefinition {
     public void click_youtube()
     {
         homePage.youTubePOM().click();
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.switchTo().window(newTab.get(1));
@@ -105,7 +105,7 @@ public class S7_FollowUsStepDefinition {
     public void navigate_youtube(String url)
     {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
-        Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Hooks.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.close();
