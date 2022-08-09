@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecfa27f-ed00-4d4a-824f-e2c24f58281b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S7_FollowUsStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/features/F8_WishList.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S8_WishListStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F6_HomeSliders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P3_HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S6_HomeSliderStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S6_HomeSliderStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S7_FollowUsStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinition/S7_FollowUsStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/engna/Downloads/FWD_E-Commerce_Automation-master/FWD_E-Commerce_Automation-master/pom.xml",
+    "last_opened_file_path": "D:/NADA-FWD/Selenium/E-CommerceProjectFWD/src/main/features",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -63,16 +62,16 @@
       <recent name="org.example.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User Follow Facebook">
-    <configuration name="Feature: F7_FollowUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: user finds item in wishlist">
+    <configuration name="Feature: F8_WishList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F8_WishList.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: F7_FollowUs" />
+      <option name="SUGGESTED_NAME" value="Feature: F8_WishList" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,16 +127,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User opens facebook link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User selects item to add to wishist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F8_WishList.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^User opens facebook link$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User opens facebook link$&quot;" />
+      <option name="NAME_FILTER" value="^User selects item to add to wishist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User selects item to add to wishist$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User opens facebook link" />
+      <option name="SUGGESTED_NAME" value="Scenario: User selects item to add to wishist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,16 +149,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User opens twitter link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user finds item in wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F7_FollowUs.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/F8_WishList.feature" />
       <option name="GLUE" value="org.example.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-CommerceProjectFWD" />
-      <option name="NAME_FILTER" value="^User opens twitter link$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User opens twitter link$&quot;" />
+      <option name="NAME_FILTER" value="^user finds item in wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user finds item in wishlist$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: User opens twitter link" />
+      <option name="SUGGESTED_NAME" value="Scenario: user finds item in wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -189,19 +188,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: F8_WishList" />
       <item itemvalue="Cucumber Java.Feature: mohammed" />
       <item itemvalue="Cucumber Java.Scenario: User Follow Facebook" />
-      <item itemvalue="Cucumber Java.Scenario: User opens facebook link" />
-      <item itemvalue="Cucumber Java.Scenario: User opens twitter link" />
-      <item itemvalue="Cucumber Java.Feature: F7_FollowUs" />
+      <item itemvalue="Cucumber Java.Scenario: User selects item to add to wishist" />
+      <item itemvalue="Cucumber Java.Scenario: user finds item in wishlist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: user finds item in wishlist" />
+        <item itemvalue="Cucumber Java.Scenario: User selects item to add to wishist" />
+        <item itemvalue="Cucumber Java.Feature: F8_WishList" />
         <item itemvalue="Cucumber Java.Scenario: User Follow Facebook" />
         <item itemvalue="Cucumber Java.Feature: mohammed" />
-        <item itemvalue="Cucumber Java.Feature: F7_FollowUs" />
-        <item itemvalue="Cucumber Java.Scenario: User opens facebook link" />
-        <item itemvalue="Cucumber Java.Scenario: User opens twitter link" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +215,7 @@
       <workItem from="1659529468227" duration="19092000" />
       <workItem from="1659716210158" duration="22417000" />
       <workItem from="1659870090019" duration="11466000" />
-      <workItem from="1659936422764" duration="25956000" />
+      <workItem from="1659936422764" duration="38014000" />
     </task>
     <task id="LOCAL-00001" summary="Report generated correctly">
       <created>1659624360241</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659946779397</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Follow-us Feature">
+      <created>1659974265028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659974265028</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +311,7 @@
     <MESSAGE value="Search for products with assertion" />
     <MESSAGE value="Hover category Feature" />
     <MESSAGE value="Home page sliders Feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page sliders Feature" />
+    <MESSAGE value="Follow-us Feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Follow-us Feature" />
   </component>
 </project>

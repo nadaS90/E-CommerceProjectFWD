@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class P3_HomePage {
-         WebDriver driver;
+         static WebDriver driver;
 
         public P3_HomePage(WebDriver driver)
         {
@@ -111,6 +111,65 @@ public class P3_HomePage {
         WebElement youTubeElm = driver.findElement(youTube);
         return youTubeElm;
     }
+
+    public WebElement selectItemWishListPOM()
+    {
+        By selectItemWishList = By.cssSelector("a[href=\"/htc-one-m8-android-l-50-lollipop\"]");
+        WebElement selectItemWishListElm = driver.findElement(selectItemWishList);
+        return selectItemWishListElm;
+    }
+
+    public WebElement addItemWishListPOM()
+    {
+        By addItemWishList = By.id("add-to-wishlist-button-18");
+        WebElement addItemWishListElm = driver.findElement(addItemWishList);
+        return addItemWishListElm;
+    }
+
+    public static By successmsgPOM()
+    {
+        By suceesmsg = By.className("content");
+        WebElement successmsgElm = driver.findElement(suceesmsg);
+
+        return suceesmsg;
+    }
+
+//    public static By sucsmsgBckgPOM()
+//    {
+//        By sucsmsgBckg = By.cssSelector("#bar-notification > div");
+//        WebElement sucsmsgBckgElm = driver.findElement(sucsmsgBckg);
+//        return (By) sucsmsgBckgElm;
+//    }
+
+    public static By msgBckgPOM(){
+        By msgBckg = By.xpath("//*[@id=\"bar-notification\"]/div");
+        WebElement msgBckgElm = driver.findElement(msgBckg);
+        return msgBckg;
+    }
+
+    public  WebElement wishListPagePOM()
+    {
+        By wishListPage = By.cssSelector("a[href=\"/wishlist\"]");
+        WebElement wishListPageElm = driver.findElement(wishListPage);
+        return wishListPageElm;
+    }
+
+//    public WebElement wishListItemsPOM()
+//    {
+//        By wishListItems = By.cssSelector("div[class=\\\"wishlist-content\\\"]");
+//        WebElement wishListItemsElm = (WebElement) driver.findElement(wishListItems);
+//        return wishListItemsElm;
+//    }
+
+    public int wishListItemsPOM()
+    {
+        int itemsNo = driver.findElements(By.cssSelector("div[class=\"wishlist-content\"]")).size();
+        return itemsNo;
+    }
+
+
+
+
 
 
 

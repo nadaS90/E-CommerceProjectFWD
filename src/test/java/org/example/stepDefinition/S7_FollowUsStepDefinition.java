@@ -1,5 +1,6 @@
 package org.example.stepDefinition;
 
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P3_HomePage;
@@ -17,15 +18,15 @@ public class S7_FollowUsStepDefinition {
         this.homePage = new P3_HomePage(Hooks.driver);
     }
 
-    @When("user clicks on facebook")
+    @Given("user clicks on facebook")
     public void click_facebook()
     {
         homePage.faceBookPOM().click();
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
 
-        Hooks.driver.switchTo().window(tabs.get(1));
+        Hooks.driver.switchTo().window(newTab.get(1));
         System.out.println(Hooks.driver.getCurrentUrl());
 
     }
@@ -36,20 +37,20 @@ public class S7_FollowUsStepDefinition {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
 
         Hooks.driver.close();
-        Hooks.driver.switchTo().window(tabs.get(0));
+        Hooks.driver.switchTo().window(newTab.get(0));
     }
 
-    @When("user clicks on twitter")
+    @Given("user clicks on twitter")
     public void click_twitter()
     {
         homePage.twitterPOM().click();
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
-        Hooks.driver.switchTo().window(tabs.get(1));
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
+        Hooks.driver.switchTo().window(newTab.get(1));
         System.out.println(Hooks.driver.getCurrentUrl());
     }
 
@@ -59,20 +60,20 @@ public class S7_FollowUsStepDefinition {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
 
         Hooks.driver.close();
-        Hooks.driver.switchTo().window(tabs.get(0));
+        Hooks.driver.switchTo().window(newTab.get(0));
     }
 
-    @When("user clicks on rss")
+    @Given("user clicks on rss")
     public void click_rss()
     {
         homePage.rssPOM().click();
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
-         Hooks.driver.switchTo().window(tabs.get(1));
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
+         Hooks.driver.switchTo().window(newTab.get(1));
 
         System.out.println(Hooks.driver.getCurrentUrl());
     }
@@ -83,19 +84,19 @@ public class S7_FollowUsStepDefinition {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.close();
-        Hooks.driver.switchTo().window(tabs.get(0));
+        Hooks.driver.switchTo().window(newTab.get(0));
     }
 
-    @When("user clicks on youtube")
+    @Given("user clicks on youtube")
     public void click_youtube()
     {
         homePage.youTubePOM().click();
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
-        Hooks.driver.switchTo().window(tabs.get(1));
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
+        Hooks.driver.switchTo().window(newTab.get(1));
 
         System.out.println(Hooks.driver.getCurrentUrl());
     }
@@ -106,9 +107,9 @@ public class S7_FollowUsStepDefinition {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),url);
         Hooks.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        ArrayList<String> tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
+        ArrayList<String> newTab = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.close();
-        Hooks.driver.switchTo().window(tabs.get(0));
+        Hooks.driver.switchTo().window(newTab.get(0));
 
     }
 
