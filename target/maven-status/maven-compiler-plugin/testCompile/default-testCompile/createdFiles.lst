@@ -1,0 +1,13 @@
+org\example\pages\P2_LoginPage.class
+org\example\stepDefinition\Hooks.class
+org\example\pages\P1_RegistrationPage.class
+org\example\stepDefinition\S3_CurrenciesStepDefinition.class
+org\example\stepDefinition\S4_SearchStepDefinition.class
+org\example\stepDefinition\S1_ResidtrationStepDefinition.class
+org\example\stepDefinition\S7_FollowUsStepDefinition.class
+org\example\stepDefinition\S6_HomeSliderStepDefinition.class
+org\example\stepDefinition\S2_LoginStepDefinition.class
+org\example\stepDefinition\S8_WishListStepDefinition.class
+org\example\pages\P3_HomePage.class
+org\example\stepDefinition\S5_HoverCategoriesStepDefinition.class
+org\example\testRunner\TestRunner.class
